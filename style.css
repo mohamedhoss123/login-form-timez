@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+.countaner{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+h1{
+    transform: translate(0, -7px);
+    width: 385px;
+}
+p{
+    width: 385px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 225px;
+}
+a{
+    transform: translate(201px, 0);
+    color: #2C5282;
+    text-decoration: none;
+}
+input{
+    height: 41px;
+    width: 341px;
+    border: 1px solid #E8E8E8;
+    border-radius: 5px;
+}
+.submite{
+    background: #d3df26;
+    border: 0px solid transparent;
+    color: #ffffff;
+}
+.d-for-form{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    margin: auto;
+    text-align: left;
+    height: 380px;
+    padding: 30px;
+
+}
+.d-for-photo{
+    width: 50vw;
+    background-image: url(./pexels-javon-swaby-1697912.jpg);
+    background-size: cover;
+    background-position-y: -222px;
+}
